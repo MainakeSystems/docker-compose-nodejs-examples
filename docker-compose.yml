@@ -4,10 +4,9 @@ services:
   webapp1:
     build:
       context: .
-      args:
-        parameter1: ONE
-        parameter2: TWO
-    image: docker-compose-nodejs-examples-build
+      cache_from:
+        - alpine:latest
+    image: docker-compose-nodejs-examples-cache-from
     ports:
       - 8181:8080
     restart: always
