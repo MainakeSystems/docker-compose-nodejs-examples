@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-examples",
+  "version": "1.0.0",
+  "description": "ExpressJS hello world example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MainakeSystems/nodejs-examples.git"
+  },
+  "author": "Manuel Tomas Ortega Sanchez <tomasortega@mainakeystems.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MainakeSystems/nodejs-examples/issues"
+  },
+  "homepage": "https://github.com/MainakeSystems/nodejs-examples#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
