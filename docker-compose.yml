@@ -4,6 +4,9 @@ services:
   webapp1:
     build:
       context: .
+      args:
+        parameter1: ONE
+        parameter2: TWO
     image: docker-compose-nodejs-examples-build
     ports:
       - 8181:8080
