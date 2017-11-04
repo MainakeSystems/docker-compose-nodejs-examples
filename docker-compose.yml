@@ -5,6 +5,7 @@ services:
     build:
       context: .
     image: docker-compose-nodejs-examples
+    container_name: docker-compose-examples-name
     ports:
       - 8181:8080
     restart: always
