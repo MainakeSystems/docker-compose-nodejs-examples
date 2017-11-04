@@ -5,6 +5,9 @@ services:
     build:
       context: .
     image: docker-compose-nodejs-examples
+    environment:
+      - DATABASE_USER=USER
+      - DATABASE_PASSWORD=PASSWORD
     ports:
       - 8181:8080
     restart: always
