@@ -6,7 +6,7 @@ services:
       context: .
       cache_from:
         - alpine:latest
-    image: docker-compose-nodejs-examples-cache-from
+    image: docker-compose-nodejs-examples
     ports:
       - 8181:8080
     restart: always
