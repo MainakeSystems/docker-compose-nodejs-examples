@@ -4,7 +4,7 @@ services:
   webapp1:
     build:
       context: .
-    image: docker-compose-nodejs-examples-build
+    image: docker-compose-nodejs-examples
     ports:
       - 8181:8080
     restart: always
