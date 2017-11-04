@@ -5,6 +5,9 @@ services:
     build:
       context: .
     image: docker-compose-nodejs-examples
+    extra_hosts:
+      - "server1:192.168.2.14"
+      - "server2:192.168.2.15"
     ports:
       - 8181:8080
     restart: always
