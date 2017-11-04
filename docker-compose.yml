@@ -5,6 +5,9 @@ services:
     build:
       context: .
     image: docker-compose-nodejs-examples
+    cap_add: 
+      - NET_ADMIN
+      - SYS_ADMIN
     ports:
       - 8181:8080
     restart: always
